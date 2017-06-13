@@ -137,7 +137,7 @@ body{
 }
 
 /* curriculum styles*/
-.bg-curriculum{
+.bg-schedule{
 	background-color: var(--secondary-bg-color);
 	padding-right: 50px;
 	padding-left: 50px;
@@ -145,22 +145,22 @@ body{
 	padding-bottom: 70px;
 }
 
-.bg-curriculum-text h1{
+.bg-schedule-text h1{
 	font-size: 27px;
 	margin-bottom: 50px;
 }
 
-.bg-curriculum-text h3{
+.bg-schedule-text h3{
 
 	font-size: 18px;
 }
 
-.bg-curriculum-text p{
+.bg-schedule-text p{
 
 	font-size: 16px;
 }
 
-.bg-curriculum-text li{
+.bg-schedule-text li{
 
 	font-size: 16px;
 }
