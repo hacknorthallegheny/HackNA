@@ -1,9 +1,9 @@
-:root{
+/*:root{
 	--primary-color: #1abc9c;
 	--primary-bg-color: #ffffff;
 	--secondary-bg-color: #F2F5F7;
 	--tertiary-bg-color: #2f2f2f;
-}
+}*/
 
 body{
 	font-family: "Montserrat", sans-serif;
@@ -18,12 +18,12 @@ body{
 
 .btn-primary{
 	color: #ffffff;
-	background-color: var(--primary-color);
+	background-color: #1abc9c;
 	border: 0px;
 }
 
 .btn-primary:hover{
-	background-color: var(--primary-color);
+	background-color: #1abc9c;
 	opacity: 0.75;
 }
 
@@ -46,7 +46,7 @@ body{
 }
 
 .nav li a:hover{
-	color: var(--primary-color) !important;
+	color: #1abc9c !important;
 }
 
 .navbarStateWhenScrolled{
@@ -99,7 +99,7 @@ body{
 
 /* general information styles*/
 .bg-info{
-	background-color: var(--primary-bg-color);
+	background-color: #ffffff;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -123,12 +123,12 @@ body{
 
 /* map styles*/
 .bg-map{
-	background-color: var(--primary-bg-color);
+	background-color: #ffffff;
 }
 
 /* FAQ styles*/
 .bg-faq{
-	background-color: var(--primary-bg-color);
+	background-color: #ffffff;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -152,7 +152,7 @@ body{
 
 /* schedule styles*/
 .bg-schedule{
-	background-color: var(--secondary-bg-color);
+	background-color: #F2F5F7;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -181,7 +181,7 @@ body{
 
 /* about styles*/
 .bg-about{
-	background-color: var(--primary-bg-color);
+	background-color: #ffffff;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -211,7 +211,7 @@ body{
 
 /* contact styles*/
 .bg-contact{
-	background-color: var(--secondary-bg-color);
+	background-color: #F2F5F7;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -239,7 +239,7 @@ body{
 
 /* footer styles*/
 .bg-footer{
-	background-color: var(--tertiary-bg-color);
+	background-color: #2f2f2f;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
