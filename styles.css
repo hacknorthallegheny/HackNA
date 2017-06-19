@@ -72,6 +72,7 @@ body{
 .bg-home{
 	background: url("assets/computer-background.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	padding-right: 10px;
