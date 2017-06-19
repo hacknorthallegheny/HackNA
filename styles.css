@@ -27,37 +27,40 @@ body{
 	font-size: 16px !important;
 	transition: 0.6s;
 	-webkit-transition: 0.6s; /*for safari*/
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(35,35,35,0.55);
 }
 
 .nav li a, .navbar-header a{
-	color: #5B5B5B  !important;
+	color: #ffffff  !important;
 
 }
 
 .nav li a:hover{
-	color: #F0AD4E !important;
+	color: var(--primary-color) !important;
 }
 
 .navbarStateWhenScrolled{
-	background-color: #ffffff;
+	background-color: rgb(35,35,35);
 	padding-top: 11px;
 	padding-bottom: 11px;
-	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .navbar-menu{
-	background-color: rgba(255,255,255,0);
 	border: 0px;
 }
 
 .navbar-menu:hover{
-	background-color: rgba(255,255,255,0) !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.icon-bar{
+	background-color: #ffffff !important;
 }
 
 /* home styles*/
 .bg-home{
-	background: url("assets/images/books-optimal.jpg");
+	background: url("assets/computer-background.jpg");
 	background-size: cover;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -67,7 +70,7 @@ body{
 }
 
 .bg-home-text{
-	color: #5B5B5B;
+	color: #ffffff;
 	position: relative;
 	top: 40%;
 	transform: translateY(-40%);
