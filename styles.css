@@ -16,6 +16,16 @@ body{
 	margin: 0px;
 }
 
+.btn-primary{
+	color: #ffffff;
+	background-color: var(--primary-color);
+	border: 0px;
+}
+
+.btn-primary:hover{
+	background-color: var(--primary-color);
+	opacity: 0.75;
+}
 
 /* navbar styles*/
 .navbar{
