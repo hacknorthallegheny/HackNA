@@ -22,8 +22,8 @@ $(document).ready(function(){
             else
                 $(".navbar").addClass("navbarStateWhenScrolled");
         }else
-			$(".navbar").addClass("navbarStateWhenScrolled");
-	}
+        $(".navbar").addClass("navbarStateWhenScrolled");
+    }
 
 	// Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -41,7 +41,7 @@ $(document).ready(function(){
             // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-                }, 900, function(){
+            }, 900, function(){
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;

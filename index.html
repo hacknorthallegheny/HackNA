@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>NA Hackathon</title>
-	<link rel="shortcut icon" type="image/png" href="assets/images/gavel.png">
+	<!--<link rel="shortcut icon" type="image/png" href="assets/images/gavel.png">-->
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="navbar-brand">NA Hackathon</a>
+				<a class="navbar-brand">HackNA</a>
 			</div>
 			<div class="collapse navbar-collapse" id="mainNav">
 				<div class="nav navbar-nav navbar-right">
@@ -78,12 +78,13 @@
 
 	<!-- map (with google maps)-->
 	<div class="container-fluid bg-map bg-map-text" id="map">
-		
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.2001365367123!2d-80.05552548459839!3d40.60340777934375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88348a2d25043fe9%3A0x6a22a9ccf29b0137!2sNorth+Allegheny+Senior+High+School!5e0!3m2!1sen!2sus!4v1497377331763" width="100%" height="620" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div onclick="document.getElementById('map-iframe').style.pointerEvents='auto';">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.2001365367123!2d-80.05552548459839!3d40.60340777934375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88348a2d25043fe9%3A0x6a22a9ccf29b0137!2sNorth+Allegheny+Senior+High+School!5e0!3m2!1sen!2sus!4v1497377331763" width="100%" height="620" frameborder="0" style="border:0; pointer-events: none;" allowfullscreen="false" id="map-iframe"></iframe>
+		</div>
 	</div>
 
 	<!-- FAQ -->
-	<div class="container-fluid bg-faq bg-faq-text" id="faq">
+	<div class="container-fluid bg-faq bg-faq-text" id="faqd">
 		<h1 class="text-center">FAQ</h1>
 
 		<div class="row">
