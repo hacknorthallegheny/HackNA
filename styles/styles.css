@@ -64,7 +64,7 @@ body{
 
 /*general body styles*/
 .body-background-image{
-	background: url("../images/computer-background.jpg");
+	background: url("../images/background-vector.png");
 	background-size: cover;
 	background-attachment: fixed;
 }

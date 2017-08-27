@@ -32,7 +32,6 @@
          id="stop5039" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient5031"
        osb:paint="gradient">
       <stop
@@ -69,11 +68,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-238.7062"
-     inkscape:cy="774.01421"
+     inkscape:zoom="2"
+     inkscape:cx="330.75783"
+     inkscape:cy="825.38119"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -101,10 +100,11 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Octagon"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
-       style="display:inline;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36870837;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36870837;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path363"
        sodipodi:sides="8"
        sodipodi:cx="102.0314"
@@ -126,7 +126,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Circuit Board"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
        style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
