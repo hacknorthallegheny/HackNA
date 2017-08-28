@@ -23,12 +23,21 @@ $(document).ready(function(){
 	function checkPosition(menuStatus){
 		var position = $(this).scrollTop();
 		if(position == 0){
+            //deal with navbar
             if(!menuStatus)
                 $(".navbar").removeClass("navbarStateWhenScrolled");
             else
                 $(".navbar").addClass("navbarStateWhenScrolled");
-        }else
-        $(".navbar").addClass("navbarStateWhenScrolled");
+
+            //deal with homescreen shading
+            $("#home").removeClass("bgHomeStateWhenScrolled");
+        }else{
+            //deal with navbar
+            $(".navbar").addClass("navbarStateWhenScrolled");
+
+            //deal with homescreen shading
+            $("#home").addClass("bgHomeStateWhenScrolled");
+        }
     }
 
 	// Add smooth scrolling to all links

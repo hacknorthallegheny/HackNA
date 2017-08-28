@@ -83,14 +83,6 @@ body{
 
 /*adjusts the image and overall width dimensions for mobile viewports*/
 @media only screen and (max-width: 1100px){
-	.body-background-image{
-		background: url("../images/background-vector-mobile.png");
-		background-attachment: local;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-color: #424242;
-	}
-
 	.body-background-color{
 		background-color: #424242;
 		width: 100%;
@@ -99,11 +91,18 @@ body{
 
 /*home styles*/
 .bg-home{
+	background-color: rgba(0,0,0,0.5);
 	padding-top: 70px;
 	padding-bottom: 70px;
 	padding-right: 10px;
 	padding-left: 10px;
 	height: 100vh;
+	transition: 0.3s;
+	-webkit-transition: 0.3s; /*for safari*/
+}
+
+.bgHomeStateWhenScrolled{
+	background-color: rgba(0,0,0,0);
 }
 
 .bg-home-text{
