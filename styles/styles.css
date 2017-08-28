@@ -36,7 +36,7 @@ body{
 	font-size: 16px !important;
 	transition: 0.6s;
 	-webkit-transition: 0.6s; /*for safari*/
-	background-color: rgba(35,35,35,0.55);
+	background-color: rgba(35,35,35,0);
 }
 
 .nav li a, .navbar-header a{
@@ -91,7 +91,7 @@ body{
 
 /*home styles*/
 .bg-home{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.42);
 	padding-top: 70px;
 	padding-bottom: 70px;
 	padding-right: 10px;
