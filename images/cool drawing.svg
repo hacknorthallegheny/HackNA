@@ -29,11 +29,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="1219.9231"
-     inkscape:cy="917.44807"
+     inkscape:zoom="0.5"
+     inkscape:cx="1353.7278"
+     inkscape:cy="942.03583"
      inkscape:document-units="px"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -1104,6 +1104,69 @@
          id="path184-5"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2997"
+       x="-0.055674375"
+       width="1.1113488"
+       y="-0.02660001"
+       height="1.0532">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3222822"
+         id="feGaussianBlur2999" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3113"
+       x="-0.010763692"
+       width="1.0215274"
+       y="-0.054926381"
+       height="1.1098528">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.7846039"
+         id="feGaussianBlur3115" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4693"
+       x="-0.017939487"
+       width="1.035879"
+       y="-0.091543968"
+       height="1.1830879">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.3076731"
+         id="feGaussianBlur4695" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4733">
+      <rect
+         style="display:inline;opacity:1;vector-effect:none;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:8.14219284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect4735"
+         width="2565.2681"
+         height="426.98865"
+         x="0.11533246"
+         y="1177.7675"
+         ry="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4737">
+      <rect
+         style="display:inline;opacity:1;vector-effect:none;fill:#dadada;fill-opacity:1;stroke:none;stroke-width:8.14219284;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect4739"
+         width="2565.2681"
+         height="426.98865"
+         x="0.11533246"
+         y="1177.7675"
+         ry="0" />
+    </clipPath>
   </defs>
   <metadata
      id="metadata77">
@@ -1121,7 +1184,8 @@
      style="display:inline"
      inkscape:label="Background"
      id="layer9"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <rect
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
@@ -1137,7 +1201,8 @@
      style="display:inline"
      inkscape:label="Table"
      id="layer4"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <g
        id="g5392-2-0"
        style="display:inline"
@@ -1711,7 +1776,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Logo"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g11676"
        transform="translate(1010.265,-260.61221)"
@@ -4194,10 +4260,38 @@
     </g>
   </g>
   <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Computer Shadow"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:export-ydpi="143.91608"
+       inkscape:export-xdpi="143.91608"
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3823-8"
+       d="m 782.373,1440.9613 c 5.38464,6.9637 13.80611,12.2859 17.8403,13.3895 l 826.0197,151.9782 -2,-8"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#0e0e0e;stroke-width:5.66900015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4693)"
+       inkscape:export-filename="C:\Users\Akshath\background-vector.png"
+       clip-path="url(#clipPath4737)" />
+    <path
+       inkscape:export-ydpi="143.91608"
+       inkscape:export-xdpi="143.91608"
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path3825-9"
+       d="m 2274.4718,1602.4681 184.1203,-378.5287 c 1.7156,-3.8299 2.2114,-7.9146 2.2037,-11.4515"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#0f0f0f;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2997)"
+       inkscape:export-filename="C:\Users\Akshath\background-vector.png"
+       clip-path="url(#clipPath4733)" />
+  </g>
+  <g
      style="display:inline;opacity:1"
      inkscape:label="Computer"
      id="layer2"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <a
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
@@ -4264,24 +4358,6 @@
        id="path3813"
        d="m 1271.9643,990.44643 c -0.1754,4.92587 2.4447,8.39324 10,9.28571 l 1173.3393,145.72326 c 9.7971,1.2257 14.2713,-2.8716 15.2678,-10.4465"
        style="display:inline;opacity:1;fill:none;stroke:#d0d0d0;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-       inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
-    <path
-       inkscape:export-ydpi="143.91608"
-       inkscape:export-xdpi="143.91608"
-       sodipodi:nodetypes="ccccccccccccc"
-       inkscape:connector-curvature="0"
-       id="path3823"
-       d="m 782.09945,1407.5501 -0.59419,24.3023 c -0.84515,12.5838 14.36121,16.7622 20.70813,18.4984 L 1628.233,1602.329 v 0 0 c 50.2451,0.015 100.4248,-0.055 150.5919,-0.04 -76.564,-13.2712 -153.8141,-27.5277 -230.5962,-40.8153 -2.4731,6.9164 -4.2085,14.9267 -11.3643,14.8997 l -207.7946,-39.276 c -4.7177,-1.6366 -8.4925,-6.6249 -7.4272,-18.6691 l -520.63005,-94.468 c -10.5155,-2.34 -17.6378,-8.0854 -18.9404,-14.8997"
-       style="display:inline;opacity:1;fill:#dadada;fill-opacity:1;stroke:#dadada;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
-    <path
-       inkscape:export-ydpi="143.91608"
-       inkscape:export-xdpi="143.91608"
-       sodipodi:nodetypes="ccccccc"
-       inkscape:connector-curvature="0"
-       id="path3819-7"
-       d="m 1536.9089,1576.2411 -207.8388,-39.1434 c -4.7177,-1.6366 -8.4925,-6.6249 -7.4272,-18.6691 3.8291,-7.3181 10.0038,-5.5144 15.8928,-4.8215 l 205,37.3215 c 4.6676,1.0438 8.0722,3.2003 5.7375,10.4128 -2.4731,6.9164 -4.2085,14.9267 -11.3643,14.8997 z"
-       style="display:inline;opacity:1;fill:#bebebe;fill-opacity:1;stroke:#bebebe;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
     <g
        style="display:inline"
@@ -4708,7 +4784,7 @@
                         <path
                            id="rect3107"
                            d="m 3317.9693,577.33323 c 0,0 489.4117,36.40301 489.4117,36.40301 2.4996,0.18592 4.3333,2.43612 4.1105,5.04496 0,0 -28.7607,336.72549 -28.7607,336.72549 -0.2197,2.57262 -2.3902,4.43372 -4.8655,4.17321 0,0 -484.8172,-51.02265 -484.8172,-51.02265 -2.2662,-0.23849 -3.941,-2.41291 -3.7559,-4.8757 0,0 24.2112,-322.24986 24.2112,-322.24986 0.1875,-2.49592 2.1789,-4.36857 4.4659,-4.19846 0,0 0,0 0,0"
-                           style="display:inline;opacity:0.85;fill:#000000;fill-opacity:0.98039216;stroke:none;stroke-width:4.93581152;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+                           style="display:inline;opacity:0.88500001;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:4.93581152;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
                            inkscape:connector-curvature="0" />
                       </g>
                       <path
@@ -6756,12 +6832,31 @@
        sodipodi:nodetypes="ccccc"
        transform="translate(0,2)"
        inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
+    <path
+       inkscape:export-ydpi="143.91608"
+       inkscape:export-xdpi="143.91608"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3823"
+       d="m 782.09945,1407.5501 -0.59419,24.3023 c -0.84515,12.5838 14.36121,16.7622 20.70813,18.4984 L 1628.233,1602.329 v 0 0 c 50.2451,0.015 100.4248,-0.055 150.5919,-0.04 -76.564,-13.2712 -153.8141,-27.5277 -230.5962,-40.8153 -2.4731,6.9164 -4.2085,14.9267 -11.3643,14.8997 l -207.7946,-39.276 c -4.7177,-1.6366 -8.4925,-6.6249 -7.4272,-18.6691 l -520.63005,-94.468 c -10.5155,-2.34 -17.6378,-8.0854 -18.9404,-14.8997"
+       style="display:inline;opacity:1;fill:#dadada;fill-opacity:1;stroke:#dadada;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
+    <path
+       inkscape:export-ydpi="143.91608"
+       inkscape:export-xdpi="143.91608"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path3819-7"
+       d="m 1536.9089,1576.2411 -207.8388,-39.1434 c -4.7177,-1.6366 -8.4925,-6.6249 -7.4272,-18.6691 3.8291,-7.3181 10.0038,-5.5144 15.8928,-4.8215 l 205,37.3215 c 4.6676,1.0438 8.0722,3.2003 5.7375,10.4128 -2.4731,6.9164 -4.2085,14.9267 -11.3643,14.8997 z"
+       style="display:inline;opacity:1;fill:#bebebe;fill-opacity:1;stroke:#bebebe;stroke-width:4.91338587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Akshath\background-vector.png" />
   </g>
   <g
      style="display:inline"
      inkscape:label="Keyboard"
      id="layer1"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <path
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
