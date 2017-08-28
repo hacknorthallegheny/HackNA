@@ -1,3 +1,9 @@
+/*
+Name: Akshath Jain
+Date: 8/27/17
+Purpose: JS file for HackNA sites; controls dynamic functionality
+*/
+
 $(document).ready(function(){
     var menuClicked = false;
 	checkPosition(menuClicked); //check the page position on init

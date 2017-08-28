@@ -1,3 +1,9 @@
+/*
+Name: Akshath Jain
+Date: 8/27/17
+Purpose: CSS document for HackNA website
+*/
+
 body{
 	font-family: "Montserrat", sans-serif;
 	font: 20px;
@@ -75,6 +81,21 @@ body{
 	margin: 0 auto;
 }
 
+/*adjusts the image and overall width dimensions for mobile viewports*/
+@media only screen and (max-width: 1100px){
+	.body-background-image{
+		background: url("../images/background-vector-mobile.png");
+		background-attachment: local;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color: #424242;
+	}
+
+	.body-background-color{
+		background-color: #424242;
+		width: 100%;
+	}
+}
 
 /*home styles*/
 .bg-home{
