@@ -78,6 +78,17 @@ body{
 	background-color: #ffffff !important;
 }
 
+.logo{
+	height: 55px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+.logo-small{
+	height: 45px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
 
 /*general body styles*/
 .body-background-image{

@@ -24,13 +24,15 @@ $(document).ready(function(){
 		var position = $(this).scrollTop();
 		if(position == 0){
             //deal with navbar
-            if(!menuStatus)
+            if(!menuStatus){
                 $(".navbar").removeClass("navbarStateWhenScrolled");
-            else
+            }else{
                 $(".navbar").addClass("navbarStateWhenScrolled");
+            }
 
             //deal with homescreen shading
             $("#home").removeClass("bgHomeStateWhenScrolled");
+
         }else{
             //deal with navbar
             $(".navbar").addClass("navbarStateWhenScrolled");
@@ -38,6 +40,13 @@ $(document).ready(function(){
             //deal with homescreen shading
             $("#home").addClass("bgHomeStateWhenScrolled");
         }
+
+        //deal with logo size 
+        if(!menuStatus) //hamburger menu isn't open
+            $("#logo-image").removeClass("logo-small"); //make logo small
+        else
+            $("#logo-image").addClass("logo-small"); //make logo big
+
     }
 
 	// Add smooth scrolling to all links
