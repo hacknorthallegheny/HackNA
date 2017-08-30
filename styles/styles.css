@@ -17,13 +17,24 @@ body{
 
 .btn-primary{
 	color: #ffffff;
+	font-size: 15px;
 	background-color: #FFA000;
 	border: 0px;
+	border-radius: 0px;
+	padding: 10px 20px;
 }
 
 .btn-primary:hover{
-	background-color: #FFA000;
-	opacity: 0.75;
+	background-color: #db8900;
+}
+
+.link-light{
+	color: #90CAF9;
+}
+
+.link-light:hover{
+	color: #90CAF9;
+	cursor: pointer;
 }
 
 /*navbar styles*/
@@ -242,6 +253,18 @@ body{
 	margin-top: 70px;
 	margin-bottom: 10px;
 	width: 275px;
+}
+
+.clickable{
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+.clickable:hover{
+	opacity: 0.8;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	cursor: pointer;
 }
 
 .img-scalable{
