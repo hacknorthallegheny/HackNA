@@ -92,7 +92,7 @@ body{
 
 /*general body styles*/
 .body-background-image{
-	background: url("../images/background-vector.png");
+	background: url("../images/background-vector.svg");
 	background-size: cover;
 	background-attachment: fixed;
 }
