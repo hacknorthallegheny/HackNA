@@ -11,17 +11,17 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="2560px"
-   height="1600px"
-   viewBox="0 0 2560 1600"
+   width="2561.4927"
+   height="1602.9272"
+   viewBox="0 0 2561.4927 1602.9272"
    version="1.1"
    id="SVGRoot"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="background-vector.svg"
-   enable-background="new"
    inkscape:export-filename="C:\Users\Akshath\Documents\HackNA\images\background.png"
    inkscape:export-xdpi="95.944054"
-   inkscape:export-ydpi="95.944054">
+   inkscape:export-ydpi="95.944054"
+   style="enable-background:new">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-838.62387"
-     inkscape:cy="787.51697"
+     inkscape:zoom="0.25"
+     inkscape:cx="1089.4762"
+     inkscape:cy="1223.8801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,11 @@
      inkscape:measure-start="196.198,654.82"
      inkscape:measure-end="549.113,582.258"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs74">
     <linearGradient
@@ -79,10 +83,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient5041"
        id="linearGradient5043"
-       x1="208.61849"
-       y1="269.74306"
-       x2="389.13151"
-       y2="269.74306"
+       x1="208.61848"
+       y1="269.74307"
+       x2="389.1315"
+       y2="269.74307"
        gradientUnits="userSpaceOnUse" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
@@ -100,7 +104,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path9764"
-         d="M 1076.9115,2884.1192 1364.0824,322.6348 h 788.6125 l 0,2561.4922 z"
+         d="M 1076.9115,2884.1192 1364.0824,322.6348 h 788.6125 V 2884.127 Z"
          style="display:inline;fill:#665e5b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          sodipodi:nodetypes="ccccc" />
     </clipPath>
@@ -1110,9 +1114,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter2997"
-       x="-0.055674375"
-       width="1.1113488"
-       y="-0.02660001"
+       x="-0.055674374"
+       width="1.1113487"
+       y="-0.026600011"
        height="1.0532">
       <feGaussianBlur
          inkscape:collect="always"
@@ -1125,7 +1129,7 @@
        id="filter4693"
        x="-0.017939487"
        width="1.035879"
-       y="-0.091543968"
+       y="-0.091543965"
        height="1.1830879">
       <feGaussianBlur
          inkscape:collect="always"
@@ -1165,7 +1169,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1174,7 +1178,8 @@
      inkscape:label="Background"
      id="layer9"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <rect
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
@@ -1191,7 +1196,8 @@
      inkscape:label="Table"
      id="layer4"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <g
        id="g5392-2-0"
        style="display:inline"
@@ -1766,7 +1772,8 @@
      id="layer5"
      inkscape:label="Logo"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <g
        id="g11676"
        transform="translate(1010.265,-260.61221)"
@@ -4253,7 +4260,8 @@
      id="layer3"
      inkscape:label="Computer Shadow"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <path
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
@@ -4280,7 +4288,8 @@
      inkscape:label="Computer"
      id="layer2"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <a
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
@@ -6845,7 +6854,8 @@
      inkscape:label="Keyboard"
      id="layer1"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-0.109375,-2.1116996)">
     <path
        inkscape:export-ydpi="143.91608"
        inkscape:export-xdpi="143.91608"
