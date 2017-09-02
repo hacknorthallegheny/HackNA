@@ -17,7 +17,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="logo-octagon.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="C:\Users\Akshath\Documents\HackNA\images\logo.png"
    inkscape:export-xdpi="500.04395"
    inkscape:export-ydpi="500.04395">
@@ -68,11 +68,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-488.87118"
-     inkscape:cy="527.43538"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="380.12936"
+     inkscape:cy="348.0577"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
@@ -84,7 +84,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid6583"
@@ -99,7 +100,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2349,45 +2350,43 @@
      id="layer1"
      inkscape:label="HackNAtion"
      transform="translate(-19.811898,-18.229996)">
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot4993"
-       style="font-style:normal;font-weight:normal;font-size:9.33333302px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffa000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,56.080893,-19.322551)"
-       inkscape:export-xdpi="500"
-       inkscape:export-ydpi="500"><flowRegion
-         id="flowRegion4995"
-         style="font-size:9.33333302px;line-height:1;text-align:center;text-anchor:middle;fill:#ffa000;fill-opacity:1"><rect
-           id="rect4997"
-           width="177.43855"
-           height="62.576637"
-           x="256.3262"
-           y="510.43039"
-           style="font-size:9.33333302px;line-height:1;text-align:center;text-anchor:middle;fill:#ffa000;fill-opacity:1" /></flowRegion><flowPara
-         id="flowPara4999"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ff8f00;fill-opacity:1">0x1236861636b4e4174696f6e</flowPara></flowRoot>  </g>
+       style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffa000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="147.37428"
+       y="117.6729"
+       id="text2551"><tspan
+         sodipodi:role="line"
+         x="147.37428"
+         y="117.6729"
+         id="tspan2549"
+         style="stroke-width:0.26458332"><tspan
+           x="147.37428"
+           y="117.6729"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666656px;line-height:1;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ff8f00;fill-opacity:1;stroke-width:0.26458332"
+           id="tspan2547">0x1236861636b4e4174696f6e</tspan></tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Hack"
      transform="translate(-19.811898,-18.229996)">
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot5019"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1"
-       transform="matrix(0.26458333,0,0,0.26458333,9.2891284,-5.7300687)"
-       inkscape:export-xdpi="500"
-       inkscape:export-ydpi="500"><flowRegion
-         id="flowRegion5021"
-         style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1"><rect
-           id="rect5023"
-           width="334.03482"
-           height="113.07484"
-           x="205.07812"
-           y="222.91031"
-           style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1" /></flowRegion><flowPara
-         id="flowPara5025"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.33333588px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-opacity:1">HACK</flowPara></flowRoot>  </g>
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
+       x="63.549381"
+       y="71.454086"
+       id="text2535"><tspan
+         sodipodi:role="line"
+         x="63.549381"
+         y="71.454086"
+         id="tspan2533"
+         style="stroke-width:0.26458332"><tspan
+           x="63.549381"
+           y="71.454086"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.46111107px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
+           id="tspan2531">HACK</tspan></tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
