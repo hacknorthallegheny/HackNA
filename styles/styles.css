@@ -28,6 +28,14 @@ body{
 	background-color: #db8900;
 }
 
+.btn-primary:focus{
+	background-color: #FFA000;
+}
+
+.btn-primary:active{
+	background-color: #FFA000;
+}
+
 .link-light{
 	color: #90CAF9;
 }
