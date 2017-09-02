@@ -105,6 +105,10 @@ body{
 
 /*adjusts the image and overall width dimensions for mobile viewports*/
 @media only screen and (max-width: 1100px){
+	.body-background-image{
+		background: #424242;
+	}
+
 	.body-background-color{
 		background-color: #424242;
 		width: 100%;
@@ -121,6 +125,13 @@ body{
 	height: 100vh;
 	transition: 0.3s;
 	-webkit-transition: 0.3s; /*for safari*/
+}
+
+/*gets rid of homescreen shading when on mobile devices*/
+@media only screen and (max-width: 1100px){
+	.bg-home{
+		background-color: rgba(0,0,0,0);
+	}
 }
 
 .bgHomeStateWhenScrolled{
