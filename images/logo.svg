@@ -11,9 +11,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="164.43901mm"
+   height="165.09935mm"
+   viewBox="0 0 164.43901 165.09935"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
@@ -55,10 +55,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient5041"
        id="linearGradient5043"
-       x1="208.61849"
-       y1="269.74306"
-       x2="389.13151"
-       y2="269.74306"
+       x1="208.61848"
+       y1="269.74307"
+       x2="389.1315"
+       y2="269.74307"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -68,21 +68,28 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="330.75783"
-     inkscape:cy="825.38119"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-488.87118"
+     inkscape:cy="527.43538"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1361"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     showguides="true">
+     showguides="true"
+     inkscape:pagecheckerboard="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
-       id="grid6583" />
+       id="grid6583"
+       originx="-19.811898"
+       originy="-113.67065" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -92,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -101,7 +108,8 @@
      id="layer4"
      inkscape:label="Octagon"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-19.811898,-18.229996)">
     <path
        sodipodi:type="star"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.36870837;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -127,7 +135,8 @@
      id="layer5"
      inkscape:label="Circuit Board"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-19.811898,-18.229996)">
     <path
        sodipodi:type="star"
        style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
@@ -2289,7 +2298,8 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Octagon Perimeter"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-19.811898,-18.229996)">
     <path
        sodipodi:type="star"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffa000;stroke-width:3;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2314,7 +2324,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="A"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-19.811898,-18.229996)">
     <path
        style="display:inline;opacity:1;fill:#ffa000;fill-opacity:1;stroke:none;stroke-width:0.34755078px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 97.336266,119.99464 110.39378,76.954761 h 31.20898 l 3.83225,14.301838 c 0.25186,0.65264 0.97622,0.97803 1.72856,0.98496 h 15.43592 V 109.1901 h -29.31403 c -1.33028,-0.0945 -2.64536,-0.66207 -2.9337,-1.57539 l -1.54365,-4.71928 h -6.05456 l -5.56623,17.10133 z"
@@ -2336,7 +2347,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="HackNAtion">
+     inkscape:label="HackNAtion"
+     transform="translate(-19.811898,-18.229996)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot4993"
@@ -2357,29 +2369,31 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Hack">
+     inkscape:label="Hack"
+     transform="translate(-19.811898,-18.229996)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot5019"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1"
        transform="matrix(0.26458333,0,0,0.26458333,9.2891284,-5.7300687)"
        inkscape:export-xdpi="500"
        inkscape:export-ydpi="500"><flowRegion
          id="flowRegion5021"
-         style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1;"><rect
+         style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1"><rect
            id="rect5023"
            width="334.03482"
            height="113.07484"
            x="205.07812"
            y="222.91031"
-           style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1;" /></flowRegion><flowPara
+           style="fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-opacity:1" /></flowRegion><flowPara
          id="flowPara5025"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.33333588px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-opacity:1;">HACK</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.33333588px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-opacity:1">HACK</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="N"
-     style="display:inline;opacity:1">
+     style="display:inline;opacity:1"
+     transform="translate(-19.811898,-18.229996)">
     <g
        id="g1204"
        transform="translate(0,-0.16287993)"
