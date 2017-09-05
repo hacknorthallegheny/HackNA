@@ -15,25 +15,31 @@ body{
 	margin: 0px;
 }
 
-.btn-primary{
-	color: #ffffff;
+.btn{
 	font-size: 15px;
-	background-color: #FFA000;
 	border: 0px;
 	border-radius: 0px;
 	padding: 10px 20px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
-.btn-primary:hover{
+.btn-warning{
+	color: #ffffff;
+	background-color: #FFA000;
+}
+
+.btn-warning:hover{
 	background-color: #db8900;
 }
 
-.btn-primary:focus{
-	background-color: #FFA000;
+.btn-danger{
+	color: #ffffff;
+	background-color: #F44336;
 }
 
-.btn-primary:active{
-	background-color: #FFA000;
+.btn-danger:hover{
+	background-color: #C62828;
 }
 
 .link-light{
