@@ -121,7 +121,7 @@ body{
 
 .body-background-color{
 	background-color: rgba(0,0,0,0.5);
-	width: 85%;
+	width: 100%%;
 	margin: 0 auto;
 }
 
@@ -265,6 +265,32 @@ body{
 }
 
 .bg-schedule-text li{
+
+	font-size: 16px;
+}
+
+/*sponsor styles*/
+.bg-sponsor{
+	background-image: url("../images/circuitboard-background.svg");
+	background-size: cover;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	color: #ffffff;
+}
+
+.bg-sponsor-text h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.bg-sponsor-text h3{
+
+	font-size: 18px;
+}
+
+.bg-sponsor-text p{
 
 	font-size: 16px;
 }
