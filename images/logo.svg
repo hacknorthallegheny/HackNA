@@ -68,14 +68,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="380.12936"
-     inkscape:cy="348.0577"
+     inkscape:zoom="0.5"
+     inkscape:cx="-202.99647"
+     inkscape:cy="-74.897218"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1361"
+     inkscape:window-width="2048"
+     inkscape:window-height="1073"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -136,8 +136,8 @@
      id="layer5"
      inkscape:label="Circuit Board"
      style="display:inline"
-     sodipodi:insensitive="true"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
        style="display:inline;fill:none;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
@@ -2300,7 +2300,8 @@
      id="layer6"
      inkscape:label="Octagon Perimeter"
      style="display:inline"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffa000;stroke-width:3;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2326,7 +2327,8 @@
      id="layer3"
      inkscape:label="A"
      style="display:inline"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true">
     <path
        style="display:inline;opacity:1;fill:#ffa000;fill-opacity:1;stroke:none;stroke-width:0.34755078px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 97.336266,119.99464 110.39378,76.954761 h 31.20898 l 3.83225,14.301838 c 0.25186,0.65264 0.97622,0.97803 1.72856,0.98496 h 15.43592 V 109.1901 h -29.31403 c -1.33028,-0.0945 -2.64536,-0.66207 -2.9337,-1.57539 l -1.54365,-4.71928 h -6.05456 l -5.56623,17.10133 z"
@@ -2349,7 +2351,9 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="HackNAtion"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.46944427px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffa000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -2370,7 +2374,9 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Hack"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
@@ -2392,7 +2398,8 @@
      id="layer2"
      inkscape:label="N"
      style="display:inline;opacity:1"
-     transform="translate(-19.811898,-18.229996)">
+     transform="translate(-19.811898,-18.229996)"
+     sodipodi:insensitive="true">
     <g
        id="g1204"
        transform="translate(0,-0.16287993)"
