@@ -30,15 +30,25 @@ $(document).ready(function(){
                 $(".navbar").addClass("navbarStateWhenScrolled");
             }
 
-            //deal with homescreen shading
-            $("#home").removeClass("bgHomeStateWhenScrolled");
+            /*//deal with homescreen shading
+            $("#home").removeClass("bgHomeStateWhenScrolled");*/
+
+            //deal with lighting on mouseover
+            document.onmousemove = function(e){
+                //console.log("mouse location: ", e.clientX, e.clientY);
+                var mouseX = e.clientX;
+                var mouseY = e.clientY;
+            }
 
         }else{
             //deal with navbar
             $(".navbar").addClass("navbarStateWhenScrolled");
 
-            //deal with homescreen shading
-            $("#home").addClass("bgHomeStateWhenScrolled");
+            /*//deal with homescreen shading
+            $("#home").addClass("bgHomeStateWhenScrolled");*/
+
+            //remove lighting on mouseover
+            document.onmousemove = null;
         }
 
         //deal with logo size 
