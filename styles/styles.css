@@ -223,12 +223,12 @@ body{
 
 .bg-info-text h3{
 	font-size: 18px;
-	color: #c4c4c4;
+	color: #ededed;
 }
 
 .bg-info-text p{
 	font-size: 16px;
-	color: #969696;
+	color: #d1d1d1;
 }
 
 /* map styles*/
@@ -267,7 +267,7 @@ body{
 }
 
 .card{
-	background: #212121;
+	background: #353535;
 	border-radius: 0px;
 	height: 100%;
 	padding: 10px;
@@ -284,11 +284,11 @@ body{
 
 .card h3{
 	font-size: 18px;
-	color: #c4c4c4;
+	color: #ededed;
 }
 
 .card p{
-	color: #8a8a8a;
+	color: #d1d1d1;
 	font-size: 16px;
 }
 
@@ -377,12 +377,12 @@ body{
 
 .bg-about-text h3{
 	font-size: 18px;
-	color: #c4c4c4;
+	color: #ededed;
 }
 
 .bg-about-text p{
 	font-size: 16px;
-	color: #8a8a8a;
+	color: #d1d1d1;
 }
 
 .staff-image{
@@ -428,12 +428,12 @@ body{
 
 .bg-contact-text h3{
 	font-size: 18px;
-	color: #c4c4c4;
+	color: #ededed;
 }
 
 .bg-contact-text p{
 	font-size: 16px;
-	color: #8a8a8a;
+	color: #d1d1d1;
 }
 
 .social-media-icons{
