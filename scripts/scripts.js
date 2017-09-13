@@ -34,11 +34,11 @@ $(document).ready(function(){
             $("#home").removeClass("bgHomeStateWhenScrolled");*/
 
             //deal with lighting on mouseover
-            document.onmousemove = function(e){
+            /*document.onmousemove = function(e){
                 //console.log("mouse location: ", e.clientX, e.clientY);
                 var mouseX = e.clientX;
                 var mouseY = e.clientY;
-            }
+            }*/
 
         }else{
             //deal with navbar
@@ -48,7 +48,7 @@ $(document).ready(function(){
             $("#home").addClass("bgHomeStateWhenScrolled");*/
 
             //remove lighting on mouseover
-            document.onmousemove = null;
+            /*document.onmousemove = null;*/
         }
 
         //deal with logo size 
