@@ -112,78 +112,17 @@ body{
 	-webkit-transition: 0.5s;
 }
 
-/*general body styles*/
-.blurred-background-image{
-	background: url("../images/background-vector.svg");
-	background-size: cover;
-	position: fixed;
-	top: -5%;
-	left: -5%;
-	width: 108%;
-	height: 108%;
-	z-index: -2;
-	
-	-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
-	-o-filter: blur(10px);
-	-ms-filter: blur(10px);
-	filter: blur(10px);
-}
-
-@media only screen and (max-width: 700px){
-	.blurred-background-image{
-		background: #424242;
-		position: relative;
-		z-index: 0;
-	}
-}
-
-.clear-background-image{
-	background: url("../images/background-vector.svg");
-	background-size: cover;
-	position: fixed;
-	top: -5%;
-	left: -5%;
-	width: 108%;
-	height: 108%;
-	z-index: -1;
-}
-
-.body-background-color{
-	background-color: rgba(0,0,0,0.5);
-	width: 100%;
-	margin: 0 auto;
-}
-
-/*adjusts the image and overall width dimensions for mobile viewports*/
-@media only screen and (max-width: 750px){
-	.body-background-image{
-		background: #424242;
-	}
-
-	.body-background-color{
-		background-color: #424242;
-		width: 100%;
-	}
-}
-
 /*home styles*/
 .bg-home{
-	background-color: rgba(0,0,0,0.42);
+	background: url("../images/blurred-background-vector.png");
+	background-size: cover;
+	display: block;
 	padding-top: 70px;
 	padding-bottom: 70px;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
 	height: 100vh;
-	transition: 0.3s;
-	-webkit-transition: 0.3s; /*for safari*/
-}
-
-/*gets rid of homescreen shading when on mobile devices*/
-@media only screen and (max-width: 1100px){
-	.bg-home{
-		background-color: rgba(0,0,0,0);
-	}
+	background-attachment: fixed;
 }
 
 .bgHomeStateWhenScrolled{
