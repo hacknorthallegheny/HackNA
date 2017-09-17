@@ -5,9 +5,13 @@ Purpose: CSS document for HackNA website
 */
 
 body{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lato", sans-serif;
 	font: 20px;
 	line-height: 1.8;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
 }
 
 .container-fluid{
