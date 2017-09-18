@@ -54,6 +54,29 @@ h3{
 	background-color: #2E7D32;
 }
 
+.btn-custom{
+	display: inline-block;
+	background-color: rgba(0,0,0,0);
+	color: #d1d1d1;
+	cursor: pointer;
+	padding: 3px 8px 3px 8px;
+	margin: 8px 0px 8px 0px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFA000;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+
+.btn-custom:hover{
+	background-color: #FFA000;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+
 .link-light{
 	color: #90CAF9;
 }
