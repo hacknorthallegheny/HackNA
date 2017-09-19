@@ -68,14 +68,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="-202.99647"
-     inkscape:cy="-74.897218"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="180.69048"
+     inkscape:cy="267.24531"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="false"
-     inkscape:window-width="2048"
-     inkscape:window-height="1073"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -2300,8 +2300,7 @@
      id="layer6"
      inkscape:label="Octagon Perimeter"
      style="display:inline"
-     transform="translate(-19.811898,-18.229996)"
-     sodipodi:insensitive="true">
+     transform="translate(-19.811898,-18.229996)">
     <path
        sodipodi:type="star"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffa000;stroke-width:3;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2375,22 +2374,21 @@
      id="layer7"
      inkscape:label="Hack"
      transform="translate(-19.811898,-18.229996)"
-     sodipodi:insensitive="true"
      style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffa000;fill-opacity:1;stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
-       x="63.549381"
-       y="71.454086"
+       x="71.223984"
+       y="70.427849"
        id="text2535"><tspan
          sodipodi:role="line"
-         x="63.549381"
-         y="71.454086"
+         x="71.223984"
+         y="70.427849"
          id="tspan2533"
-         style="stroke-width:0.26458332"><tspan
-           x="63.549381"
-           y="71.454086"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.46111107px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
+         style="font-size:25.39999962px;stroke-width:0.26458332"><tspan
+           x="71.223984"
+           y="70.427849"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.39999962px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke:#ffa000;stroke-width:0.26458332;stroke-opacity:1"
            id="tspan2531">HACK</tspan></tspan></text>
   </g>
   <g
@@ -2398,8 +2396,7 @@
      id="layer2"
      inkscape:label="N"
      style="display:inline;opacity:1"
-     transform="translate(-19.811898,-18.229996)"
-     sodipodi:insensitive="true">
+     transform="translate(-19.811898,-18.229996)">
     <g
        id="g1204"
        transform="translate(0,-0.16287993)"
