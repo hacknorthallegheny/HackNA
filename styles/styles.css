@@ -138,6 +138,28 @@ h3{
 	-webkit-transition: 0.5s;
 }
 
+@media only screen and (max-width: 1000px){
+	.content-container{
+		width: 95%;
+	}
+}
+
+h1{
+	font-size: 27px;
+	margin-bottom: 50px;
+	color: #ffffff;
+}
+
+h3{
+	font-size: 18px;
+	color: #ededed;
+}
+
+p{
+	font-size: 16px;
+	color: #d1d1d1;
+}
+
 /*home styles*/
 .bg-home{
 	background: url("../images/blurred-background-vector.jpg");
@@ -163,18 +185,16 @@ h3{
 }
 
 .bg-home-text h1{
-
 	font-size: 35px;
+	margin-bottom: 10px;
 }
 
 .bg-home-text p{
-
 	font-size: 20px;
+	color: #ffffff;
 }
 
-
-/* general information styles*/
-.bg-info{
+.background-primary{
 	background-color: #1d1d1d;
 	padding-right: 50px;
 	padding-left: 50px;
@@ -182,41 +202,22 @@ h3{
 	padding-bottom: 70px;
 }
 
-.bg-info-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-	color: #ffffff;
+.background-secondary{
+	background-color: #212121;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
-.bg-info-text h3{
-	font-size: 18px;
-	color: #ededed;
+.content-container{
+	width: 80%;
+	margin: 0 auto;
 }
 
-.bg-info-text p{
-	font-size: 16px;
-	color: #d1d1d1;
-}
-
-/* map styles*/
 .bg-map{
 	background-color: rgba(255,255,255,0);
-}
-
-/* FAQ styles*/
-.bg-faq{
-	background-color: #1d1d1d;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	margin-top: -10px;
-}
-
-.bg-faq-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-	color: #ffffff;
+	margin-bottom: -10px;
 }
 
 .table-row{
@@ -249,16 +250,6 @@ h3{
 	border-bottom: none;
 }
 
-.card h3{
-	font-size: 18px;
-	color: #ededed;
-}
-
-.card p{
-	color: #d1d1d1;
-	font-size: 16px;
-}
-
 @media only screen and (max-width: 1100px){
 	.table-cell{
 		display: block;
@@ -272,84 +263,10 @@ h3{
 	}
 }
 
-/* schedule styles*/
-.bg-schedule{
-	background-color: #F2F5F7;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
-.bg-schedule-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-}
-
-.bg-schedule-text h3{
-
-	font-size: 18px;
-}
-
-.bg-schedule-text p{
-
-	font-size: 16px;
-}
-
-.bg-schedule-text li{
-
-	font-size: 16px;
-}
-
 /*sponsor styles*/
 .bg-sponsor{
 	background-image: url("../images/circuitboard-background.svg");
 	background-size: cover;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
-	color: #ffffff;
-}
-
-.bg-sponsor-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-}
-
-.bg-sponsor-text h3{
-
-	font-size: 18px;
-}
-
-.bg-sponsor-text p{
-
-	font-size: 16px;
-}
-
-/* about styles*/
-.bg-about{
-	background-color: #1d1d1d;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
-.bg-about-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-	color: #ffffff;
-}
-
-.bg-about-text h3{
-	font-size: 18px;
-	color: #ededed;
-}
-
-.bg-about-text p{
-	font-size: 16px;
-	color: #d1d1d1;
 }
 
 .staff-image{
@@ -378,45 +295,14 @@ h3{
 	margin: 0 auto;
 }
 
-/* contact styles*/
-.bg-contact{
-	background-color: #212121;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
-.bg-contact-text h1{
-	font-size: 27px;
-	margin-bottom: 50px;
-	color: #ffffff;
-}
-
-.bg-contact-text h3{
-	font-size: 18px;
-	color: #ededed;
-}
-
-.bg-contact-text p{
-	font-size: 16px;
-	color: #d1d1d1;
-}
-
 .social-media-icons{
 	width: 27px;
 }
 
-/* footer styles*/
 .bg-footer{
 	background-color: #2f2f2f;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
 	padding-bottom: 70px;
-}
-
-.bg-footer-text{
-	color: #ffffff;
-	font-size: 16px;
 }
