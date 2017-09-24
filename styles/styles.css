@@ -108,7 +108,7 @@ h3{
 }
 
 .navbarStateWhenScrolled{
-	background-color: #2f2f2f;
+	background-color: #0f0f0f;
 	padding-top: 11px;
 	padding-bottom: 11px;
 	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
@@ -195,7 +195,7 @@ p{
 }
 
 .background-primary{
-	background-color: #1d1d1d;
+	background-color: #282828;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -203,7 +203,7 @@ p{
 }
 
 .background-secondary{
-	background-color: #212121;
+	background-color: #363636;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 70px;
@@ -297,12 +297,4 @@ p{
 
 .social-media-icons{
 	width: 27px;
-}
-
-.bg-footer{
-	background-color: #2f2f2f;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 70px;
-	padding-bottom: 70px;
 }
