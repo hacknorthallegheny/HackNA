@@ -216,6 +216,12 @@ p{
 	margin-bottom: -10px;
 }
 
+@media only screen and (max-width: 720px){
+	.bg-faq{
+		width: 95%;
+	}
+}
+
 .table-row{
 	display: table;
 	table-layout: fixed;
