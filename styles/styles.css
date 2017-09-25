@@ -196,16 +196,12 @@ p{
 
 .background-primary{
 	background-color: #282828;
-	padding-right: 50px;
-	padding-left: 50px;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
 
 .background-secondary{
 	background-color: #363636;
-	padding-right: 50px;
-	padding-left: 50px;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -256,11 +252,6 @@ p{
 		margin-left: 0px;
 		width: 100%;
 	}
-
-	.bg-faq{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
 }
 
 /*sponsor styles*/
@@ -297,4 +288,8 @@ p{
 
 .social-media-icons{
 	width: 27px;
+}
+
+.bg-footer{
+	padding-left: 50px;
 }
