@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="circuitboard-background.svg">
+   sodipodi:docname="circuitboard-background.svg"
+   inkscape:export-filename="C:\Users\Akshath\Documents\bitmap.png"
+   inkscape:export-xdpi="40"
+   inkscape:export-ydpi="40">
   <defs
      id="defs2">
     <clipPath
@@ -37,11 +40,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="711.64283"
-     inkscape:cy="1498.4181"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="1702.7331"
+     inkscape:cy="843.75057"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="2560"
@@ -70,7 +73,8 @@
      id="layer2"
      inkscape:label="Background"
      style="display:inline"
-     transform="translate(0.00103467,-9.795625e-4)">
+     transform="translate(0.00103467,-9.795625e-4)"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;vector-effect:none;fill:#363636;fill-opacity:1;stroke:#363636;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect5752"
