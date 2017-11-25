@@ -248,7 +248,7 @@ p{
 }
 
 .table-hover-dark tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #424242;
+	background-color: #424242;
 }
 
 .card{
