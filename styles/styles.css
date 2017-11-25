@@ -227,10 +227,34 @@ p{
 	margin-bottom: -10px;
 }
 
+.bg-faq{
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
 @media only screen and (max-width: 720px){
 	.bg-faq{
 		width: 95%;
 	}
+}
+
+.nav-tabs > li, .nav-pills > li {
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+	text-align:center;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover{
+	background-color: #424242 !important;
+}
+
+.nav-pills > li > a:focus, .nav-pills > li > a:hover {
+	background-color: #424242;
 }
 
 .table-row{
