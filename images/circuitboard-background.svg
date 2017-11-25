@@ -44,7 +44,7 @@
      inkscape:cx="1702.7331"
      inkscape:cy="843.75057"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      inkscape:window-width="2560"
@@ -73,10 +73,9 @@
      id="layer2"
      inkscape:label="Background"
      style="display:inline"
-     transform="translate(0.00103467,-9.795625e-4)"
-     sodipodi:insensitive="true">
+     transform="translate(0.00103467,-9.795625e-4)">
     <rect
-       style="opacity:1;vector-effect:none;fill:#363636;fill-opacity:1;stroke:#363636;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;vector-effect:none;fill:#2d2d2d;fill-opacity:1;stroke:#363636;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect5752"
        width="1016"
        height="571.5"
