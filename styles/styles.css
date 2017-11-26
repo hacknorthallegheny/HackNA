@@ -28,12 +28,13 @@ h3{
 }
 
 .btn-warning{
-	color: #ffffff;
-	background-color: #FFA000;
+	color: #ffffff !important;
+	background-color: #FFA000 !important;
 }
 
 .btn-warning:hover{
-	background-color: #db8900;
+	color: #ffffff !important;
+	background-color: #db8900 !important;
 }
 
 .btn-danger{
@@ -300,6 +301,18 @@ p{
 }
 
 /*sponsor styles*/
+.sponsor-gold{
+	width: 500px;
+}
+
+.sponsor-silver{
+	width: 250px;
+}
+
+.sponsor-bronze{
+	width: 150px;
+}
+
 .bg-sponsor{
 	background-image: url("../images/circuitboard-background.svg");
 	background-size: cover;
