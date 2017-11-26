@@ -19,6 +19,11 @@ h3{
 	margin: 0px;
 }
 
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .btn{
 	font-size: 15px;
 	border: 0px;
@@ -301,21 +306,13 @@ p{
 }
 
 /*sponsor styles*/
-.sponsor-gold{
-	width: 500px;
-}
-
-.sponsor-silver{
-	width: 250px;
-}
-
-.sponsor-bronze{
-	width: 150px;
-}
-
 .bg-sponsor{
 	background-image: url("../images/circuitboard-background.svg");
 	background-size: cover;
+}
+
+.sponsor-image{
+	padding: 20px;
 }
 
 .staff-image{
