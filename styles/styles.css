@@ -267,7 +267,7 @@ p{
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1000px){
 	.content-container-smaller{
 		width: 90%;
 	}
@@ -283,7 +283,7 @@ p{
 	-webkit-transition: 0.2s;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1000px){
 	.bg-faq{
 		width: 95%;
 	}
