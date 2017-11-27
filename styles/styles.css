@@ -82,6 +82,13 @@ h3{
 	-webkit-transition: 0.1s;
 }
 
+/*Use this only when there is weird gap between the bottom of the button and the bottom of a card*/
+.button-bottom{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 18px;
+}
+
 .link-light{
 	color: #90CAF9;
 }
@@ -275,6 +282,7 @@ p{
 	display: table-cell;
 	padding: 10px;
 	margin: 10px;
+	position: relative;
 }
 
 .table-hover-dark tbody tr:hover td, .table-hover tbody tr:hover th {
