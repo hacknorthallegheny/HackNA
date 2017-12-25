@@ -1,2 +1,2 @@
-# NAHackathonWebsite
-website for the NA hackathon
+# HackNA Website
+website for HackNA
