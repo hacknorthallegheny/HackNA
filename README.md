@@ -25,5 +25,9 @@ Website for HackNA
 * your landing page will be accessible ONLY through the future page
 * when you're done, contact @akshathjain so I can make sure everything is accessible
 
+#### Making any changes
+* anything committed to the master branch will be live
+* be sure you want it to be live before committing to master
+* any unfinished changes should be committed to an uncompleted-branch (feel free to make a new one), and when you're ready, merge that branch with the master branch
 
 
