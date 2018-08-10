@@ -13,10 +13,22 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
+		<loc>http://hackna.org/2019</loc>
+		<lastmod>2018-08-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>http://hackna.org/2019/sponsors.html</loc>
+		<lastmod>2018-08-10</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
 		<loc>http://hackna.org/2017</loc>
 		<lastmod>2017-11-05</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.9</priority>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hackna.org/2017/sponsors.html</loc>
