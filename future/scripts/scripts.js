@@ -69,7 +69,7 @@ $(document).ready(function(){
 
     //initialize the countdown clock
     function initCountdown(){
-        var deadline = "2019-01-05T06:14:15.927-05:00" //Jan 5,2019 at 6:14:15.927 am est
+        var deadline = "2020-01-05T06:14:15.927-05:00" //Jan 5, 2020 at 6:14:15.927 am est
 
         //update clock every second
         setInterval(function(){
