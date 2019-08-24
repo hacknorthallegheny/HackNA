@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Testing</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<style type="text/css">
+		.blurred-background-image{
+			background: url("images/background-vector.svg");
+			background-size: cover;
+			position: fixed;
+			top: -5%;
+			left: -5%;
+			width: 108%;
+			height: 108%;
+			z-index: -1;
+
+			filter: blur(10px) brightness(80%);
+			-webkit-filter: blur(10px) brightness(80%);
+			-moz-filter: blur(10px) brightness(80%);
+			-o-filter: blur(10px) brightness(80%);
+			-ms-filter: blur(10px) brightness(80%);
+		}
+	</style>
+</head>
+<body>
+	<div class="blurred-background-image"></div>
+	<canvas id="myCanvas" width="80" height="80" style="display: block;">
+		<script>
+			$(document).ready(function(){
+				//load the image first for caching purposes
+				var img = document.createElement('img');
+				img.src = 'images/background-vector.svg';
+				img.onload = function(){
+					console.log('getting called onload');
+					var canvas = document.getElementById('myCanvas');
+					var context = canvas.getContext('2d');
+
+					window.addEventListener('resize', resizeCanvas, false);
+					document.onmousemove = function(e){
+						drawStuff(e.clientX, e.clientY);
+					}
+
+
+					function resizeCanvas(){
+						canvas.width = window.innerWidth;
+						canvas.height = window.innerHeight;
+
+						drawStuff(-1, -1);
+					}
+
+					resizeCanvas();
+
+					function drawStuff(mouseX, mouseY){
+						//clear the canvas
+						context.clearRect(0,0,canvas.width, canvas.height);
+
+						//draw the image
+						if(mouseX >= 0 && mouseY >= 0){
+							console.log('getting here');
+							var cw = context.canvas.width;
+							var ch = context.canvas.height;
+							var iAspectRatio = img.width / img.height;
+							var nw, nh;
+
+							var w1 = cw;
+							var h1 = cw / iAspectRatio;
+
+							var h2 = ch;
+							var w2 = ch * iAspectRatio;
+
+							if(w1* h1 > w2 * h2){
+								nw = w1;
+								nh = h1;
+							}else{
+								nw = w2;
+								nh = h2;
+							}
+
+							//the size of the clear region
+							var box = 200;
+
+							//save the canvas to remove clips later
+							context.save();
+
+							//create clip
+							context.beginPath();
+							context.arc(mouseX, mouseY, box / 3, 0, Math.PI * 2, false);
+							context.clip();	
+
+							nw *= 1.08; //account for width expansion
+							nh *= 1.08; //account for width expansion
+							context.drawImage(img, 
+								(mouseX + 0.05 * cw - box / 2) / nw * img.width, //account for the negative left shift then scale to the original image size
+								(mouseY + 0.05 * ch - box / 2) / nh * img.height, //account for negative top shift then scale to original image size
+								box / nw * img.width, 
+								box / nh * img.height, 
+								mouseX - (box / 2), 
+								mouseY - (box / 2), 
+								box, 
+								box);
+
+							//create a gradient
+							var grd = context.createRadialGradient(mouseX, mouseY, box / 3, mouseX, mouseY, box);
+							grd.addColorStop(0, "transparent");
+							grd.addColorStop(0.5, "transparent");
+							grd.addColorStop(1, "rgba(0,0,0,1)");
+
+							context.restore(); //get rid of the clip
+
+						}
+					}
+				}
+			});
+		</script>
+	</canvas>
+</body>
+</html>
