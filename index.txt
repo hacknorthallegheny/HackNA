@@ -1,0 +1,3 @@
+<script type="text/javascript">
+		window.location.assign('https://hackna.org/2020/');
+</script>
