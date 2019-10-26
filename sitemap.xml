@@ -6,7 +6,11 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<url>
+  <loc>https://hackna.org/</loc>
+  <lastmod>2019-09-19T02:02:29+00:00</lastmod>
+  <priority>0.99</priority>
+</url>
 <url>
   <loc>https://hackna.org/2020/</loc>
   <lastmod>2019-09-19T02:02:29+00:00</lastmod>
@@ -32,6 +36,10 @@
   <lastmod>2019-09-19T02:02:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://hackna.org/2019/</loc>
+  <lastmod>2019-09-19T02:02:29+00:00</lastmod>
+  <priority>0</priority>
+</url>
 
 </urlset>
