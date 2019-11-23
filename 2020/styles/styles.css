@@ -196,9 +196,14 @@ h3{
 }
 
 h1{
-	font-size: 27px;
+	font-size: 35px;
 	margin-bottom: 50px;
 	color: #ffffff;
+}
+h2{
+    font-size: 27px;
+    margin-bottom: 40px;
+    color: #ffffff;
 }
 
 h3{
