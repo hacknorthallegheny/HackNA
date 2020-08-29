@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hacknorthallegheny/HackNA/master/2019/images/logo.svg">
+</p>
+
 # HackNA Website
 Website for HackNA
 
