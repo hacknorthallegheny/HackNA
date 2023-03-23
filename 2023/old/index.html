@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NA Hackathon</title>
+	<!--<link rel="shortcut icon" type="image/png" href="assets/images/gavel.png">-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="scripts.js"></script>
+
+	<!-- google analytics info -->
+	
+</head>
+
+<body>
+
+	<!--nav bar-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="navbar-brand">HackNA</a>
+			</div>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<div class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#info">General Info</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- home/bigimage -->
+	<div class="container-fluid text-center bg-home" id="home">
+		<div class="container-fluid text-center bg-home-text">
+			<h1>North Allegheny Hackathon</h1>
+			<p><b>A high-school programming compeition for the Greater Pittsburgh Area</b></p>
+			<a class="btn btn-primary" href="https://goo.gl/forms/x6iOkU71a8G8JEi63">SIGN UP</a>
+		</div>
+	</div>
+
+	<!-- general information -->
+	<div class="container-fluid bg-info bg-info-text" id="info">
+		<h1 class="text-center">GENERAL INFO</h1>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><span class="glyphicon glyphicon-paperclip" style="color: #1abc9c"></span>&nbsp;&nbsp;&nbsp;<b>What?</b></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac odio a tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla magna diam, semper sed sagittis vitae, interdum at felis. Integer et mauris fermentum, malesuada elit sit amet, luctus leo. Vestibulum luctus ullamcorper sagittis. Mauris eget tellus cursus.</p>
+			</div>			
+			<div class="col-sm-4">
+				<h3><span class="glyphicon glyphicon-calendar" style="color: #1abc9c"></span>&nbsp;&nbsp;&nbsp;<b>When?</b></h3>
+				<p>The Hackathon will be taking place on a Saturday during either November or December. The exact date is yet to be decided.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3><span class="glyphicon glyphicon-map-marker" style="color: #1abc9c"></span>&nbsp;&nbsp;&nbsp;<b>Where?</b></h3>
+				<p>
+					The North Allegheny Hackathon will take place at the NA Senior High School.
+					<br>
+					<a href="#map">10375 Perry Hwy, Wexford, PA 15090</a>
+				</p>
+			</div>
+		</div>
+	</div>	
+
+	<!-- map (with google maps)-->
+	<div class="container-fluid bg-map bg-map-text" id="map">
+		<div onclick="document.getElementById('map-iframe').style.pointerEvents='auto';">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.2001365367123!2d-80.05552548459839!3d40.60340777934375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88348a2d25043fe9%3A0x6a22a9ccf29b0137!2sNorth+Allegheny+Senior+High+School!5e0!3m2!1sen!2sus!4v1497377331763" width="100%" height="620" frameborder="0" style="border:0; pointer-events: none;" allowfullscreen="false" id="map-iframe"></iframe>
+		</div>
+	</div>
+
+	<!-- FAQ -->
+	<div class="container-fluid bg-faq bg-faq-text" id="faqd">
+		<h1 class="text-center">FAQ</h1>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><b>What is a hackathon?</b></h3>
+				<p>A hackathon is best described as an “invention marathon”. Anyone who has an interest in technology attends a hackathon to learn, build &amp; share their creations over the course of a weekend in a relaxed and welcoming atmosphere. You don’t have to be a programmer and you certainly don’t have to be majoring in Computer Science.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3><b>What if I don't know how to code?</b></h3>
+				<p>Not a problem! It’s entirely irrelevant what your experience is going into a hackathon, it’s more about your interest in technology. We are passionate about making our hackathons very welcoming and beginner-friendly. If you’re wanting to learn how to code outside of a hackathon, check out the following: Treehouse or Codecademy, to get started.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3><b>What if I don't have an idea?</b></h3>
+				<p>That’s normal. Most people don’t have an idea before they get to the event. But once you start talking to other people, you might come up with something. You can also work with somebody else on their idea if you like it. And there will be prizes at the event which might help give you some ideas. Don’t worry about it, you’ll find something to work on.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><b>Will there be food?</b></h3>
+				<p>Absolutely! We will provide a light breakfast in the morning, buffet-styled lunch catered from ______, and pizza for dinner. There’ll also be plenty of snacks and drinks to keep you energized. If you’ve got specific dietary requirements, you should let us know during registration on the Google Form, and we will be more than happy to make arrangements.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3><b>How do I sign up?</b></h3>
+				<p>Sign up through the Google Form on the Sign Up page. Share the link with your friends and school to get your friends involved as well!</p>
+			</div>
+			<div class="col-sm-4">
+				<h3><b>Do I need my own laptop?</b></h3>
+				<p>We will have a cart for you to borrow for the day. Please indicate whether you need to borrow a laptop on the Google Form so we can prepare. Also let us know on the Google Form if you require any basic hardware or tools. We will respond to requests before the day of the Hackathon to let you know if we can provide those materials for your hack.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3><b>What's the schedule for the day?</b></h3>
+				<p>There will be a light breakfast and keynote speech in the morning followed by the meeting up of group members and brainstorming of ideas. There will be workshops throughout the day and lunch around noon. In addition to workshops, the afternoon will be filled with light refreshments and project work. The evening will include a pizza dinner and presentation of projects followed by the awards ceremony.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- schedule -->
+	<div class="container-fluid bg-schedule bg-schedule-text" id="schedule">
+		<h1 class="text-center">SCHEDULE</h1>
+		<p>The schedule is yet to be released.</p>
+	</div>
+
+	<!-- about us -->
+	<div class="container-fluid text-center bg-about bg-about-text" id="about">
+		<h1 class="text-center">ABOUT US</h1>
+		<div class="row">
+			<div class="col-sm-6">
+				<img class="staff-image" src="assets/akshathjain.jpg">
+				<h3><b>Akshath Jain</b></h3>
+				<p>Co-Founder / Organizer</p>
+			</div>
+			<div class="col-sm-6">
+				<img class="staff-image" src="assets/akshathjain.jpg">
+				<h3><b>Janet Wang</b></h3>
+				<p>Co-Founder / Organizer</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- contact -->
+	<div class="container-fluid text-center bg-contact bg-contact-text" id="contact">
+		<h1 class="text-center">CONTACT</h1>
+		<div class="text-center row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<h3><b>Have any questions, comments, or concerns?</b></h3>
+				<p>
+					Feel free to contact us at anytime.
+					<br>
+					<br>
+					Email: <a href="mailto:contact@projectcodeone.org">contact@projectcodeone.org</a>
+					<br>
+					NA Phone Number: <a>(724) 934-7200</a>
+					<br>
+					<br>
+					<br>
+					<a href="https://www.facebook.com/"><img class="social-media-icons" src="assets/facebook.png"></a>&nbsp;&nbsp;&nbsp;
+					<a href="https://twitter.com/"><img class="social-media-icons" src="assets/twitter.png"></a>&nbsp;&nbsp;&nbsp;
+					<a href="https://instagram.com/"><img class="social-media-icons" src="assets/instagram.png"></a>
+				</p>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="container-fluid bg-footer bg-footer-text">
+
+		<p>©2017 North Allegheny Hackathon. All rights reserved. Designed and developed by Akshath Jain.</p>
+	</footer>
+</body>
+</html>
