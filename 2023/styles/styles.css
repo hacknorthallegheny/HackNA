@@ -218,7 +218,7 @@ p{
 
 /*home styles*/
 .bg-home{
-	background: url("../images/computer-background.gif");
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg");
 	background-size: cover;
 	display: block;
 	padding-top: 70px;
