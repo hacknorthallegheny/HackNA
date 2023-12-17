@@ -1,0 +1,613 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HackNA 2024</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="keywords" content="hackna,pittsburgh hackathon,north allegheny,highschool hackathon" />
+    <meta name="description" content="HackNA 2024 is a high school hackathon for the Greater Pittsburgh Area">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/animation.css">
+
+    <!-- google analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-105971579-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a type="button" class="navbar-toggle navbar-menu" data-toggle="collapse" data-target="#mainNav" id="navbarCollapseButton">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="navbar-brand">
+                    <img src="images/logo.svg" class="logo" align="left" hspace="20" style="margin-top: -17px;" id="logo-image">
+                    <span style="color: #FFA000;">~/</span>HackNA-2024
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNav" style="border-top: 0px;">
+                <div class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#info">General Info</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#sponsor">Sponsors</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <!-- Change this link later when we have a google form for signing up-->
+                    <li><a class="btn-warning" target="_blank" style="border-radius: 15px; color: #ffffff !important;" href="about:blank">SIGN UP</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- home/bigimage -->
+    <div class="container-fluid text-center bg-home" id="home">
+        <div class="container-fluid text-center bg-home-text">
+            <div class="header-center">
+                <h1 class="typewriter">HackNA 2024</h1>
+            </div>
+            <p><b>A high school hackathon for the Greater Pittsburgh Area</b></p>
+            <!-- Change these too -->
+            <a class="btn btn-warning" target="_blank" href="about:blank">SIGN UP</a>
+            <a class="btn btn-danger" target="_blank" href="about:blank">MENTOR</a>
+            <a class="btn btn-success" target="_blank" href="about:blank">JUDGES</a>
+            <!-- <a class="btn btn-success" href="sponsors.html">SPONSOR</a> -->
+        </div>
+    </div>
+
+    <!--sponsor logos-->
+    <div class="container-fluid background-secondary text-center" id="sponsor">
+        <h2 class="text-center">Gold Sponsors</h2>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.microsoft.com/en-us/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 100%" src="images/sponsor/microsoft.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://ppg.com" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 100%" src="images/sponsor/ppg.svg"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <br>
+        <h2 class="text-center">Silver Sponsors</h2>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.schellgames.com/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 30%" src="images/sponsor/schellgames.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.jazzhr.com/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 60%" src="images/sponsor/jazzHR.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+        <h2 class="text-center">Bronze Sponsors</h2>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.dollar.bank/Personal.aspx?rc=1" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 50%" src="images/sponsor/DollarBank.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://gkgortho.com" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 35%" src="images/sponsor/gkgortho.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.openarc.net/" target="_blank"><img class="img-scalable clickable sponsor-image" style="height: 100%" src="images/sponsor/openarc.png"></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://www.oracle.com/index.html" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 100%" src="images/sponsor/oracle.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <a href="https://montecellos.com/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 80%" src="images/sponsor/montecellos.png"></a>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <a href="https://www.schellgames.com/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 30%" src="images/sponsor/schellgames.png"></a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <a href="https://www.bnymellon.com/us/en/home.jsp" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 60%" src="images/sponsor/bnymellon.png"></a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <a href="https://www.subway.com/en-US" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 80%" src="images/sponsor/subway.png"></a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <a href="http://www.dvitechnologies.com" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 38%" src="images/sponsor/DVItransparent.png"></a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+            <a href="https://www.argo.ai/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 30%" src="images/sponsor/argoai.png"></a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+            <a href="https://www.cmu.edu/ini/" target="_blank"><img class="img-scalable clickable sponsor-image" style="width: 30%" src="images/sponsor/ini.png"></a>
+        </div> 
+    </div> 
+
+    <div class="container-fluid text-center bg-sponsor background-secondary">
+        <div class="content-container">
+            <h3><b>Interested in sponsoring us?</b></h3>
+            <p>Help foster a high school tech community by partnering with us.</p>
+            <a class="btn btn-success" href="sponsors.html">SPONSORSHIP INFORMATION</a>
+        </div>
+    </div>
+
+    <!-- general information -->
+    <div class="container-fluid bg-info background-primary" id="info">
+        <div class="content-container">
+            <h1 class="text-center">GENERAL INFO</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3><span class="glyphicon glyphicon-paperclip" style="color: #FFA000"></span>&nbsp;&nbsp;&nbsp;<b>What?</b></h3>
+                    <p>HackNA is a high school hackathon, hosted by the team from North Allegheny Senior High School.  During the competition, you will create a software or hardware project from scratch based on a central theme revealed at the opening ceremony. No prior experience is required – we welcome anyone interested and will be providing workshops and mentor expertise to help you get started! At the end of the competition, teams will pitch their project to a panel of judges in a chance to win sponsored prizes and rewards.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3><span class="glyphicon glyphicon-calendar" style="color: #FFA000"></span>&nbsp;&nbsp;&nbsp;<b>When?</b></h3>
+                    <p>The event is planned to take place on February 24th. We will start the event off with a guest speaker and team building for people wish to work in a group. We will have multiple workshops available throughout the event for all participants and experienced mentors available for all help.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3><span class="glyphicon glyphicon-map-marker" style="color: #FFA000"></span>&nbsp;&nbsp;&nbsp;<b>Where?</b></h3>
+                    <p>
+                        This year, we will move back to the in-person event, this time spanning over one day. HackNA will take place at the North Allegheny High School, located at <a class="link-light" href="#map">10375 Perry Hwy, Wexford, PA 15090</a>. We hope to see you there!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- map (with google maps)
+    <div class="container-fluid bg-map" id="map">
+        <div onclick="document.getElementById('map-iframe').style.pointerEvents='auto';" style="cursor: pointer;">
+            <iframe id='map-iframe' src="https://snazzymaps.com/embed/15086" width="100%" height="500px" style="border:none; pointer-events: none;"></iframe>
+        </div>
+    </div> -->
+
+    <!-- FAQ -->
+    <div class="container-fluid background-primary" id="faq">
+        <div class="content-container bg-faq">
+            <h1 class="text-center">FAQ</h1>
+            <br>
+
+            <ul class="nav nav-pills" style="width: 100%; margins: 0 auto;">
+                <li class="active"><a data-toggle="pill" href="#generalfaqtab">GENERAL</a></li>
+                <li><a data-toggle="pill" href="#hackingfaqtab">HACKING</a></li>
+                <li><a data-toggle="pill" href="#logisticsfaqtab">LOGISTICS</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="generalfaqtab" class="tab-pane fade in active">
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>What is a hackathon?</b></h3>
+                            <p>In the context of HackNA, a hackathon is best described as an “invention marathon.” Throughout the course of the days, you and your team will collaborate together to build a fun and creative project centered around a theme. Absolutely no experience is needed to participate either! We’ll be providing workshops and mentor expertise to help you get started!</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What if I don't know how to code?</b></h3>
+                            <p>That's not a problem! Your experience doesn't matter for you to be successful at a hackathon. We're passionate about making our hackathons very welcoming and beginner-friendly, which is why we're also going to be providing optional workshops throughout the day to help you get started if you need it.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>How do I sign up?</b></h3>
+                            <p>You can sign up by clicking the sign up button on the home page or the one below. Remember to share the link with friends to get them involved as well!</p>
+                            <a class="btn-custom" href="" target="_blank">SIGN UP</a>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Is there a registration deadline?</b></h3>
+                            <p>We ask that all registrations be in by February 20th at 11:59pm. This gives us enough time to prepare accordingly.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>Who can participate?</b></h3>
+                            <p>Anyone in middle or high school, regardless of location!</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>I'm a college student. Can I still attend?</b></h3>
+                            <p>Unfortunately, the hackathon is exclusively for middle and high school students, so you won't be able to participate. If you would like to help out, you’re more than welcome to help mentor teams or judge!</p>
+                            <a class="btn-custom" href="https://forms.gle/grjoe8jEwX4RmroY7" target="_blank">JUDGE</a>
+                            <a class="btn-custom" href="https://forms.gle/xVH8DVvyXJsJXydo97" target="_blank">MENTOR</a>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Can I sponsor HackNA?</b></h3>
+                            <p>Absolutely! HackNA is funded 100% through sponsors! Get started <a class="link-light" href="sponsors.html">here</a>.</p>
+                            <a class="btn-custom" href="sponsors.html">SPONSOR</a>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>How can I get in touch?</b></h3>
+                            <p>Feel free to email us at anytime with questions at <a class="link-light" href="mailto:contact@hackna.org">contact@hackna.org!</a></p>
+                            <a class="btn-custom" href="mailto:contact@hackna.org">CONTACT</a>
+                        </div>
+                        <div class="table-cell card" style="visibility: hidden;">
+                            <h3><b></b></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hackingfaqtab" class="tab-pane fade">
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Wait, isn't hacking illegal?</b></h3>
+                            <p>Gaining unauthorized access to a server or network is extremely illegal… and you definitely shouldn’t do it. But in the context of HackNA, “hacking” is efficiently making a software or hardware project in the span of 12 hours.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What if I don’t have an idea?</b></h3>
+                            <p>That’s normal. Most people don’t have an idea before they get to the event. But once you start talking to other people, you might come up with something. You can also work with somebody else on their idea if you like it. And there will be prizes at the event which might help give you some ideas. Don’t worry about it, you’ll find something to work on!</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What can I build?</b></h3>
+                            <p>Anything! You can build whatever you want: websites, programs, mobile apps, anything! We’ll be revealing a theme on site that your project must be centered around, but it's going to be completely open to your interpretation!</p>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Do I need to work in a group?</b></h3>
+                            <p>Nope, working in a group is by no means required. However, completing a project over a course of three days may be daunting, so it might be easier to work with a partner or in a small group of up to 4 members.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What if I don’t have a team?</b></h3>
+                            <p>That’s ok. If you’re interested in participating and don’t have a team, you can still sign up. We will have dedicated team building time allocated at the beginning of the competition to help you find other participants to work with.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>How many people can be on a team?</b></h3>
+                            <p>Teams can have at most 4 people, but they definitely can have less people. If you prefer flying solo or working in a pair, that’s cool too!</p>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Can I submit past projects?</b></h3>
+                            <p>No, to keep true to the spirit of a hackathon, you may not submit past projects. All projects must be fully developed on site at HackNA. This ensures a level playing field and keeps the competition fair.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>Who will own my "brain child"?</b></h3>
+                            <p>All of the work done by you and your team will be completely yours. We hope that you will continue to work on the project after HackNA!</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>How will I be Judged?</b></h3>
+                            <p>The link to the rubric is <a href="https://drive.google.com/file/d/1pLMGEqq8v3TrFklii1_pKU-cccjmvPLR/view?usp=sharing">here.</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="logisticsfaqtab" class="tab-pane fade">
+                    <!-- <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>Will there be food?</b></h3>
+                            <p>Absolutely! We will be providing lunch and dinner at absolutely no cost to you! There’ll also be plenty of snacks and drinks to keep you energized. If you’ve got specific dietary requirements, you should let us know when you sign up, and we will be more than happy to make arrangements.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>Do I need my own laptop/computer?</b></h3>
+                            <p>If you have one that you can bring, we recommend that you do. However, if you're unable to, we will have some for you to borrow. Please indicate whether you need to borrow a laptop when you sign up so we can prepare accordingly.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>Will hardware be provided?</b></h3>
+                            <p>We will have a limited supply of Arduinos, breadboards, wires, and other electrical components. If you have your own equipment, we recommend that you bring it. Please exercise caution and refrain from bringing dangerous equipment (soldering setups, high voltage batteries, etc).</p>
+                        </div>
+                    </div> -->
+                    <div class="table-row">
+                        <div class="table-cell card">
+                            <h3><b>What can I win?</b></h3>
+                            <p>The high school teams and middle school teams are split into two sections. For high schoolers: 1st place: $300 - 2nd place: $200 - 3rd place: $100. For middle schoolers: 1st place: $75 - 2nd place: $50.</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What does it cost to compete?</b></h3>
+                            <p>Nothing for you! Thanks to the generous help from our sponsors, all costs for HackNA are covered; essentially, a free opportunity to earn monetary prizes!</p>
+                        </div>
+                        <div class="table-cell card">
+                            <h3><b>What if I have to go a dentist appointment or whatever, and I'll be gone for an hour?</b></h3>
+                            <p>No Problem! Note that all workshops and seminars are optional. Just make sure your team is up to date and let your mentor know you will be gone for the set time. Please make sure to attend the Opening and Award Ceremonies!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- schedule -->
+    <div class="container-fluid background-secondary" id="schedule">
+        <div class="content-container-smaller">
+            <h1 class="text-center">SCHEDULE</h1>
+
+            <h2 class="text-center" >Saturday</h2>
+            <table class="table table-hover-dark" style="color:#ffffff;">
+                <thead>
+                    <tr>
+                        <th style="width: 10%"><h3>Time</h3></th>
+                        <th style="width: 20%"><h3>Event</h3></th>
+                        <th style="width: 70%"><h3>Description</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>9:00am<br> to <br>9:30am</b></td>
+                        <td>Opening Ceremony and Kickoff with our Guest Speaker</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>9:30am<br> to <br> 9:45am</b></td>
+                        <td>Q & A Session</td>
+                        <td>Have any questions about the hackathon format or for our guest speaker? We'll be answering your questions at this time, although you're free to ask on the HackNA Discord server as well!</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>9:45am<br> to <br>10:00am</b></td>
+                        <td>Team Building</td>
+                        <td>Don't have a team? We'll set up a call for students to get to know each other. Otherwise, you can get right into hacking!</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>10:00am<br> to <br>11:00am</b></td>
+                        <td>Intro to Python Workshop</td>
+                        <td>Learn about the basics of Python, a versatile and commonly used programming language that's easy to get into.</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>11:00am<br> to <br>12:00pm</b></td>
+                        <td>Intro to Web Design Workshop</td>
+                        <td>Learn how to make a basic website with the languages of the web (HTML, CSS, JS). </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>12:00pm<br> to <br>1:00pm</b></td>
+                        <td>Intermediate Python Workshop</td>
+                        <td>Learn more advanced functions in Python, including methods, loops, and lists.</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>7:00pm</b></td>
+                        <td>Submission Time</td>
+                        <td>Submit your product and wait for it to be judged!</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>8:30pm<br> to <br>9:00pm</b></td>
+                        <td>Closing Ceremony</td>
+                        <td>See the results of all your hard work!</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--
+            <h2 class="text-center" >Sunday</h2>
+            <table class="table table-hover-dark" style="color:#ffffff;">
+                <thead>
+                    <tr>
+                        <th style="width: 10%"><h3>Time</h3></th>
+                        <th style="width: 20%"><h3>Event</h3></th>
+                        <th style="width: 70%"><h3>Description</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>10:00am<br> to <br>11:00am</b></td>
+                        <td>Morning Check-ins</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>11:00am<br> to <br>12:00pm</b></td>
+                        <td>Intro to Python</td>
+                        <td>Learn about the basics of Python, a versatile and commonly used programming language that's easy to get into.</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>1:00pm<br> to <br>2:00pm</b></td>
+                        <td>Intro to Web Design</td>
+                        <td>Learn how to make a basic website with the languages of the web (HTML, CSS, JS). </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>3:00pm<br> to <br>4:00pm</b></td>
+                        <td>Intermediate Python</td>
+                        <td>Learn more advanced functions in Python, including methods, loops, and lists.</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+            <h2 class="text-center">Monday</h2>
+            <table class="table table-hover-dark" style="color:#ffffff;">
+                <thead>
+                    <tr>
+                        <th style="width: 10%"><h3>Time</h3></th>
+                        <th style="width: 20%"><h3>Event</h3></th>
+                        <th style="width: 70%"><h3>Description</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>10:30am<br> to <br> 11:30am</b></td>
+                        <td>Check-ins</td>
+                        <td>Check-in with each team; plan out for the last day of the event</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>7:00pm</b></td>
+                        <td>Submission Time</td>
+                        <td>Submit your product!</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>8:30pm<br> to <br>9:00pm</b></td>
+                        <td>Closing Ceremony</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            -->
+        </div>
+    </div>
+
+
+
+    <!-- sponsor ship information -->
+    <div class="container-fluid text-center bg-sponsor background-secondary">
+        <div class="content-container">
+            <h3><b>Interested in sponsoring us?</b></h3>
+            <p>Help foster a high school tech community by partnering with us.</p>
+            <a class="btn btn-success" href="sponsors.html">SPONSORSHIP INFORMATION</a>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="container-fluid text-center bg-about background-primary" id="about">
+        <div class="content-container">
+            <h1 class="text-center">ABOUT US</h1>
+            <h1 class="text-center">2023-2024 Core-Organizers</h1>
+            <div class="row">
+                <div class="col-sm-2"></div><!-- use this to fill in space to the left -->
+                <div class="col-sm-2"></div><!-- use this to fill in space to the left -->
+                <div class="col-sm-4">
+                    <!-- <img class="staff-image img-scalable" src="images/tatianasinelnikova.jpg" hspace="50"> -->
+                    <h3><b>Jeongwoo Cheon</b></h3>
+                    <p>Core Organizer 2023-24</p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-4">
+                    <!-- <img class="staff-image img-scalable" src="images/rinatu.jpg"> -->
+                    <h3><b>Edward Mei</b></h3>
+                    <p>Assistant Organizer 2023-24</p>
+                </div>
+                <div class="col-sm-4">
+                    <!-- <img class="staff-image img-scalable" src="images/kelsofiedler.jpg"> -->
+                    <h3><b>Joseph Widjaja</b></h3>
+                    <p>Assistant Organizer 2023-24</p>
+                </div>
+                <div class="col-sm-4">
+                    <!-- <img class="staff-image img-scalable" src="images/suprithachalla.jpg"> -->
+                    <h3><b>Jack Wang</b></h3>
+                    <p>Assistant Organizer 2023-24</p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <h3><b></b></h3>
+                    <p></p>
+                
+                </div><br>
+                <div class="col-sm-4">
+                    <!-- <img class="staff-image img-scalable" src="images/suprithachalla.jpg"> -->
+                    <h3><b>Noah Lee</b></h3>
+                    <p>Assistant Organizer 2023-24</p>
+                </div>
+            </div>
+            <h1 class="text-center">Founders</h1>
+            <div class="row">
+                <div class="col-sm-2"></div><!-- use this to fill in space to the left -->
+                <div class="col-sm-4">
+                    <a href="http://akshathjain.com" target="_blank"><img class="staff-image img-scalable clickable" style="width: 50%" src="images/akshathjain.jpg"></a>
+                    <h3><b>Akshath Jain</b></h3>
+                    <p>Original Co-Founder 2017</p>
+                    <p>Core Organizer 2017-18</p>
+                </div>
+                <div class="col-sm-4">
+                    <img class="staff-image img-scalable" style="width: 50%" src="images/janetwang.jpg">
+                    <h3><b>Janet Wang</b></h3>
+                    <p>Original Co-Founder 2017</p>
+                    <p>Core Organizer 2017-18</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid text-center bg-contact background-secondary" id="contact">
+        <div class="content-container">
+            <h1 class="text-center">CONTACT</h1>
+            <div class="text-center row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4" >
+                    <h3><b>Have any questions, comments, or concerns?</b></h3>
+                    <p>
+                        Feel free to contact us at anytime.
+                        <br>
+                        <br>
+                        Email: <a class="link-light" href="mailto:contact@hackna.org">contact@hackna.org</a>
+                        <br>
+                        NA Phone Number: <a class="link-light">(724) 934-7200</a>
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://www.facebook.com/hacknorthallegheny"><img class="clickable social-media-icons" src="images/facebook.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://twitter.com/"><img class="clickable social-media-icons" src="images/twitter.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://instagram.com/"><img class="clickable social-media-icons" src="images/instagram.png"></a>
+                    </p>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid background-primary bg-footer">
+        <p>©2024 HackNA. All rights reserved. Website designed by <a class="link-light" href="http://akshathjain.com">Akshath Jain </a>and updated by each year's HackNA Oragnizers<a>.</p>
+    </footer>
+
+    <!--load scritps-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+</body>
+</html>
