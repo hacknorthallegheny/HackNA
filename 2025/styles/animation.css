@@ -1,0 +1,32 @@
+/* Source: https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+
+  animation: 
+    typing 1.5s steps(25, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #FFA000; }
+}
+
+.header-center {
+    display: inline-block;
+    text-align: none;
+    margin: auto;
+}
+
+.header-center h1 {
+    width: max-content;
+}
